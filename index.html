@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="size">
+            <img src="image.png" alt="Poke Ball" class="pokeball-image"> 
+            <h1>Who are you looking for?</h1>
+            <input type="text" id="pokemonInput" placeholder="Enter Pokemon name or ID">
+            <button id="searchButton">Search</button>
+            <h2>Pokemon List</h2>
+        </div>    
+        <div id="pokemonData">
+            <div id="pokemonList" class="pokemon-list">
+                <!-- Pokemon list will be displayed here -->
+            </div>
+            <div id="pokemon-container"></div>
+            <div id="pokemonData" class="pokemon-data">
+                <!-- Pokemon data will be displayed here -->
+                <button id="backButton" style="display: none;">Back to Home</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
